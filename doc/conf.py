@@ -205,7 +205,7 @@ html_theme_options = {
         {
             "name": "启智AI",
             "url": "https://openi.pcl.ac.cn/xinetzone",
-            "icon": "fa-thin fa-list-check",
+            "icon": "fa-sharp fa-solid fa-clipboard",
             "type": "fontawesome",
         },
         {

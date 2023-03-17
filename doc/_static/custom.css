@@ -1,13 +1,12 @@
 /* Background of stsable should be green */
 #version_switcher a[data-version-name*="stable"] {
-  background-color: #e2ffe2;
+  background-color: #c9fac9;
 }
 
 /* Color of explicit versions should be orange */
-#version_switcher
-  a:not([data-version-name*="stable"]):not([data-version-name="dev"]) {
-  background-color: #f8f9fa;
-  color: grey;
+#version_switcher a:not([data-version-name*="stable"]):not([data-version-name="dev"]) {
+  background-color: #6ae2be;
+  color: rgb(201, 197, 197);
 }
 
 /* If we're on a dev version, make the switcher button orange */
@@ -16,7 +15,7 @@
 }
 
 blockquote.epigraph {
-  background-color: antiquewhite;
+  background-color: rgb(149, 146, 143);
 }
 
 .dfn {

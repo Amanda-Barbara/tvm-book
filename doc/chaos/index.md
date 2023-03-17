@@ -3,11 +3,11 @@
 ```{toctree}
 :maxdepth: 3
 
-eagerpy/index
 interpret/index
 paper/index
 ../tests/index
-../api/index
+others/index
+draft
 ```
 
 ## Git 自动补全

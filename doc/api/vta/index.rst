@@ -1,7 +1,0 @@
-``vta``
-============
-
-.. toctree::
-
-    config
-    remote

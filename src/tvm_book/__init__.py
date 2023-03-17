@@ -1,4 +1,3 @@
 '''TVM Book
 '''
-
-__version__ = '0.0.5'
+from .__about__ import __version__

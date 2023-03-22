@@ -10,4 +10,5 @@ prepare
 start/index
 expressions/index
 packed-func
+autotvm
 ```

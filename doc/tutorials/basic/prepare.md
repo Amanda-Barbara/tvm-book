@@ -26,10 +26,22 @@ set(USE_CUDA ON)
 
 也不要忘记启用 `cython`，它可以加速性能。您只需要在 TVM 源文件夹中运行 `make cython`。
 
-安装 MXNet GPU 版本（{cite:p}`Chen.Li.Li.ea.2015`）可以：
+（可选）安装 MXNet GPU 版本（{cite:p}`Chen.Li.Li.ea.2015`）可以：
 
 ```bash
-pip install mxnet-cu112
+pip install mxnet-cu116
+```
+
+（可选）安装 PyTorch 可以：
+
+```bash
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+```
+
+（可选）安装 ONNX，可以：
+
+```bash
+pip install onnx onnxoptimizer 
 ```
 
 ## 便捷安装
@@ -160,12 +172,6 @@ pip install mlc-ai-nightly-cu110 -f https://mlc.ai/wheels
 ```
 ````
 `````
-
-安装 ONNX（如果需要），可以：
-
-```bash
-pip install --user onnx onnxoptimizer 
-```
 
 ## 自动调优
 

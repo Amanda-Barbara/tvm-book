@@ -5,7 +5,7 @@
 
 interpret/index
 paper/index
-../tests/index
+tests/index
 others/index
 draft
 ```

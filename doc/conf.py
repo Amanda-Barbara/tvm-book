@@ -229,7 +229,7 @@ html_theme_options = {
             "name": "博客园",
             "url": "https://www.cnblogs.com/q735613050/",
             "icon": "https://xinetzone.github.io/xinetzone/media/xinetzone.jpg",
-            "type": "url",
+            "type": "local",
         },
         {
             "name": "领英",

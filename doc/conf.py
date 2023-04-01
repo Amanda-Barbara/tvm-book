@@ -190,7 +190,7 @@ html_theme_options = {
     "navbar_center": "navbar-nav.html",
     "navbar_end": ["theme-switcher", "version-switcher", "navbar-icon-links"],
     "left_sidebar_end": "sidebar-ethical-ads.html",
-    "secondary_sidebar_items": ["page-toc.html", "edit-this-page.html"],
+    # "secondary_sidebar_items": ["page-toc.html", "edit-this-page.html"],
     "footer_start": ["copyright", "sphinx-version"],
     "footer_end": ["last-updated", ],
     # 图标可以参考 https://fontawesome.com/icons

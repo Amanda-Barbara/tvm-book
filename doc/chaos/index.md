@@ -6,6 +6,7 @@
 terms/index
 interpret/index
 paper/index
+tasks/index
 tests/index
 others/index
 draft

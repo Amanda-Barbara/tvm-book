@@ -12,8 +12,9 @@ authors = [
 ]
 dependencies = [
     "importlib-metadata>=4.12",
+    # "tvmx @ file:///${PROJECT_ROOT}/../tvm/xinetzone",
 ]
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 readme = "README.md"
 license = {file = "LICENSE"}
 
@@ -53,7 +54,3 @@ doc = [
 # includes = []
 excludes = ["doc", ".github"]
 source-includes = ["tests/"]
-
-[pypi.extra]
-url = "https://pypi.tuna.tsinghua.edu.cn/simple "
-# verify_ssl = false

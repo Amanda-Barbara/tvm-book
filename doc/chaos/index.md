@@ -3,6 +3,7 @@
 ```{toctree}
 :maxdepth: 3
 
+terms/index
 interpret/index
 paper/index
 tests/index

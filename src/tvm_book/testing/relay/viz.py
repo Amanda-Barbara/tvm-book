@@ -5,7 +5,7 @@ from tvm.contrib.relay_viz.dot import (
     DotPlotter,
     DotVizParser
 )
-from tvm_book.tvm.viz_relay import Visualizer
+from tvm_book.tvm_utils.viz_relay import Visualizer
 
 
 def graphviz_relay(ir_mod,

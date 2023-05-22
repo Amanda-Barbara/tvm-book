@@ -12,6 +12,7 @@ transform/index
 relay/index
 vta/index
 relax/index
+tedd/index
 chaos/index
 test
 ```

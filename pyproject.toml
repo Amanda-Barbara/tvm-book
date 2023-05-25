@@ -1,9 +1,6 @@
 [tool.pdm]
 version = { source = "file", path = "src/tvm_book/__about__.py" }
 allow_prereleases = true
-[tool.pdm.dev-dependencies]
-
-
 [project]
 name = "tvm-book"
 dynamic = ["version"]
@@ -11,7 +8,8 @@ authors = [
     {name = "xinetzone", email = "xinzone@outlook.com"},
 ]
 dependencies = [
-    "importlib-metadata>=4.12",
+    "d2py",
+    # "tvmx @ file:///${PROJECT_ROOT}/..",
 ]
 requires-python = ">=3.10"
 readme = "README.md"

@@ -12,7 +12,6 @@ authors = [
 ]
 dependencies = [
     "importlib-metadata>=4.12",
-    "tvmx @ file:///${PROJECT_ROOT}/../tvm/xinetzone",
 ]
 requires-python = ">=3.10"
 readme = "README.md"

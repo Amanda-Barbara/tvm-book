@@ -47,9 +47,7 @@ jobs:
         run: |
           sudo apt-get install graphviz
           conda install -c conda-forge pandoc
-          pip install d2py
-          invoke init
-          invoke install
+          pip install .[doc]
       - name: 🔧 Build HTML
         run: |
           invoke doc

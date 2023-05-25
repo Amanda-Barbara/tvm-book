@@ -1,5 +1,5 @@
 # 扩展包的最小 Makefile
-TVM_ROOT=$(shell cd /media/pc/data/4tb/lxw/home/lxw/tvm; pwd)
+TVM_ROOT=$(shell cd /media/pc/data/lxw/ai/tvm; pwd)
 PKG_CFLAGS = -std=c++17 -O2 -fPIC\
 	-I${TVM_ROOT}/include\
 	-I${TVM_ROOT}/3rdparty/dmlc-core/include\

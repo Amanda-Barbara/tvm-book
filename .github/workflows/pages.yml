@@ -52,8 +52,7 @@ jobs:
           invoke install
       - name: 🔧 Build HTML
         run: |
-          invoke install -g doc
-          invoke pdm-doc
+          invoke doc
       - name: Setup Pages
         uses: actions/configure-pages@v1
       - name: Upload artifact

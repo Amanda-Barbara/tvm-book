@@ -2,4 +2,6 @@
 
 ```{toctree}
 from-pytorch
+from-tensorflow
+from-tf_slim/index
 ```

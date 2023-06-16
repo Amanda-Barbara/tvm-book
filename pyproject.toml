@@ -30,6 +30,7 @@ Documentation = "https://xinetzone.github.io/tvm-book"
 [project.optional-dependencies]
 doc = [
   "sphinx>4",
+  "mdit-py-plugins",
   "myst-nb",
   "xyzstyle",
   "matplotlib",

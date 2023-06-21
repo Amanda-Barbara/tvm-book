@@ -58,15 +58,29 @@ class ImageFolderDataset:
                     continue
                 self.items.append((str(filename), label))
 
-    def __getitem__(self, idx):
-        with Image.open(self.items[idx][0]) as im:
-            if self.flag:
-                im = im.convert("RGB")
-            else:
-                im = im.convert("L")
-            img = np.array(im)
-        label = self.items[idx][1]
-        return img, label
+    def pil2array(self, im: Image):
+        """将 PIL.Image 转换为 np.ndarray"""
+        if self.flag:
+            im = im.convert("RGB")
+        else:
+            im = im.convert("L")
+        return np.array(im)
+
+    def __getitem__(self, index):
+        if isinstance(index, slice):
+            images = []
+            labels = []
+            for path, label in self.items[index]:
+                with Image.open(path) as im:
+                    img = self.pil2array(im)
+                images.append(img)
+                labels.append(label)
+            return images, labels
+        else:
+            path, label = self.items[index]
+            with Image.open(path) as im:
+                img = self.pil2array(im)
+            return img, label
 
     def __len__(self):
         return len(self.items)

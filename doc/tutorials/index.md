@@ -13,6 +13,7 @@ relay/index
 vta/index
 relax/index
 tedd/index
+datasets/index
 chaos/index
 test
 ```

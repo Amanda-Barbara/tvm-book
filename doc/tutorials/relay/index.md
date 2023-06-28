@@ -6,6 +6,7 @@
 start/index
 build-module
 frontend/index
+quant/index
 transform/index
 chaos/index
 ```

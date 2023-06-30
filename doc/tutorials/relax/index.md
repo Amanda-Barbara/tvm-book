@@ -1,9 +1,10 @@
 # Relax 手册
 
 ```{toctree}
-start
-frontend/index
-relay-translator
+nn-module
+mlp
+relay2relax
+e2e-auto-tir
 contains-impure-call
-estimate-memory-usage
+relax-temp/index
 ```

@@ -1,20 +1,12 @@
-import glob
 import os
-import platform
-import re
-import copy
-import tempfile
 import scipy
 import numpy as np
-
 import tvm
 import tvm.topi.testing
 from tvm import relay
 from tvm.contrib import graph_executor, utils
 from tvm.relay.frontend.common import infer_type
 from tvm.relay.build_module import bind_params_by_name
-from utils.tag_span import _create_span, _set_span, _verify_structural_equal_with_span
-
 import onnx
 import onnxruntime.backend
 from onnx import TensorProto, helper, mapping, numpy_helper

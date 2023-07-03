@@ -1,8 +1,8 @@
 # 变换概述
 
-`tvm.ir.transform` 定义了通用 pass 基础设施跨 IR 的变种。
+`tvm.ir.transform` 定义了 IR 变体之间的通用传递基础设施。
 
-{class}`tvm.ir.transform.ModulePass` 在 `tvm.IRModule` 上工作的 pass。用户不需要直接与该类交互。相反，应该通过 `module_pass(pass_func=None, opt_level=None, name=None, required=None, traceable=False)` 创建模块级传递，因为 `module_pass` API 的设计足够灵活，可以以不同的方式处理模块级传递的创建。此外，可以从基类访问模块 pass 的所有成员。
+{class}`tvm.ir.transform.ModulePass` 是在 `tvm.IRModule` 上工作的 pass。用户不需要直接与该类交互。相反，应该通过 `module_pass(pass_func=None, opt_level=None, name=None, required=None, traceable=False)` 创建模块级传递，因为 `module_pass` API 的设计足够灵活，可以以不同的方式处理模块级传递的创建。此外，可以从基类访问模块 pass 的所有成员。
 
 {class}`tvm.ir.transform.Sequential` 处理 pass 对象序列的传递。可以使用这个类顺序地执行多个传递。请注意，用户还可以提供一系列在运行顺序传递时不希望应用的传递。pass 依赖项也将在后端进行解析。
 

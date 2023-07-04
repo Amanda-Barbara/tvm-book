@@ -7,6 +7,7 @@
 :maxdepth: 5
 
 basic/index
+quantize/index
 deploy/index
 transform/index
 relay/index

@@ -90,6 +90,8 @@ invoke doc.update -l zh_CN
     invoke ln-env --root tvm项目根目录 --target python环境路径 --python-version 3.10
     ```
 
+5. 如果 TVM 和 VTA 仅仅是作为局部使用，可以使用 `pdm` 进行管理。
+
 ## 关于 `tvm_book` 库
 
 为了便于本项目程序的复用，定制了 `tvm_book` 库，可以直接在项目根目录直接安装：

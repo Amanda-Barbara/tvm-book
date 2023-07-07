@@ -5,4 +5,6 @@ start
 frontend/index
 relay-translator
 estimate-memory-usage
+e2e-auto-tir
+contains-impure-call
 ```

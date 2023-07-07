@@ -4,7 +4,5 @@
 nn-module
 mlp
 relay2relax
-e2e-auto-tir
-contains-impure-call
 relax-temp/index
 ```

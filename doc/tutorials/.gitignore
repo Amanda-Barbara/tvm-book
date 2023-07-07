@@ -2,3 +2,4 @@ libs/
 outputs/
 draft/
 data/
+*.pkl

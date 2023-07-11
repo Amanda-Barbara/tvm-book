@@ -7,6 +7,7 @@
 :maxdepth: 5
 
 basic/index
+frontend/index
 quantize/index
 deploy/index
 transform/index
@@ -16,5 +17,4 @@ relax/index
 tedd/index
 datasets/index
 chaos/index
-test
 ```
